@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    background: url(/img/bacg.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 1000px;
+    border-radius: 30px;
+}
+
+.left{
+    margin: 80px 0px 30px 30px;
+
+}
+.left img{
+    height: 350px;
+    width: 550px;
+}
+.left h1{
+    color: #1091e7;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.left input{
+    width: 55px;
+    height: 45px;
+    font-weight: bold;
+    color: #1091e7;
+    border-color: #1091e7;
+    cursor: pointer;
+}
+.right{
+    margin: 80px 50px 30px 10px;
+    
+}
+.right h2{
+    color: #1091e7;
+}
+.right h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 15px;
+}
+.right h3{
+    color: #1091e7;
+    font-size: 30px;
+    margin: 20px 0;
+}
+.right p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+.right input{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 20px;
+}
